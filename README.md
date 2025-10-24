@@ -1,8 +1,14 @@
 # 🧩 Lab 1 – Logic, Quantifiers, and Number Operations
 
-### **Course:** CS214 – Discrete Mathematics / First Term  
-### **Department:** Computer & Systems Engineering  
-### **Language:** Python  
+### **Course:** CSE214 – Discrete Mathematics
+
+### **University:** Alexandria University
+
+### **Faculty:** Engineering
+
+### **Department:** Computer & Systems Engineering
+
+### **Language:** Python
 
 
 ---
@@ -94,6 +100,6 @@ python grader.py
 
 ## 📌 Submission Rules
 
-- Submit **only one file**: `lab1_(student_id).py`
+- Submit **only one file**: `lab1_(student_id).py` remove the brackets for example `lab1_12345678.py`
 - Include your name and ID at the top of the file.
 - Your file must run without syntax errors.
