@@ -69,7 +69,19 @@ def nested_quantifiers(predicate: Callable[[int, int], bool],
       ∀x∃y P(x,y)
       ∃x∀y P(x,y)
       ∃x∃y P(x,y)
-    Returns a dictionary with boolean results.
+
+    Returns a dictionary with boolean results, for example:
+        {
+            "forall_forall": True,
+            "forall_exists": True,
+            "exists_forall": False,
+            "exists_exists": True
+        }
+
+    Example:
+        def P(x, y): return x < y
+        nested_quantifiers(P, [1, 2, 3], [1, 2, 3])
+        → {"forall_forall": False, "forall_exists": False, "exists_forall": False, "exists_exists": True}
     """
     # TODO: implement this function
     pass
